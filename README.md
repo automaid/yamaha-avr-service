@@ -1,4 +1,6 @@
 # yamaha-avr-service
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/automaid/yamaha-avr-service.svg)](https://greenkeeper.io/)
 Expose Yamaha AVR remote control as a http api
 
 # Configuration
