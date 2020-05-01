@@ -1,42 +1,46 @@
 {
-    "name": "@automaid/yamaha-avr-service",
-    "version": "1.0.0",
-    "description": "Expose Yamaha AVRs as a HTTP Endpoint",
-    "main": "src/index.js",
-    "bin": {
-        "yamaha-service": "bin/yamaha-service"
-    },
-    "scripts": {
-        "start": "bin/yamaha-service",
-        "lint": "eslint src/** bin/** test/**",
-        "test": "mocha"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/automaid/yamaha-avr-service.git"
-    },
-    "author": "Max Jöhnk <maxjoehnk@gmail.com>",
-    "license": "GPL-3.0",
-    "bugs": {
-        "url": "https://github.com/automaid/yamaha-avr-service/issues"
-    },
-    "homepage": "https://github.com/automaid/yamaha-avr-service#readme",
-    "dependencies": {
-        "bunyan": "^1.8.10",
-        "bunyan-format": "^0.2.1",
-        "js-yaml": "^3.9.0",
-        "lodash.get": "^4.4.2",
-        "restify": "^5.0.1",
-        "restify-errors": "^4.3.0",
-        "yamaha-nodejs": "^0.7.8",
-        "yargs": "^8.0.2"
-    },
-    "devDependencies": {
-        "chai": "^4.1.0",
-        "chai-as-promised": "^7.1.1",
-        "eslint": "^4.3.0",
-        "mocha": "^3.5.0",
-        "sinon": "^2.4.1",
-        "sinon-chai": "^2.12.0"
-    }
+  "name": "@automaid/yamaha-avr-service",
+  "version": "1.0.0",
+  "description": "Expose Yamaha AVRs as a HTTP Endpoint",
+  "main": "src/index.js",
+  "bin": {
+    "yamaha-service": "bin/yamaha-service"
+  },
+  "scripts": {
+    "start": "bin/yamaha-service",
+    "lint": "eslint src/** bin/** test/**",
+    "test": "mocha",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/automaid/yamaha-avr-service.git"
+  },
+  "author": "Max Jöhnk <maxjoehnk@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/automaid/yamaha-avr-service/issues"
+  },
+  "homepage": "https://github.com/automaid/yamaha-avr-service#readme",
+  "dependencies": {
+    "bunyan": "^1.8.10",
+    "bunyan-format": "^0.2.1",
+    "js-yaml": "^3.9.0",
+    "lodash.get": "^4.4.2",
+    "restify": "^5.0.1",
+    "restify-errors": "^4.3.0",
+    "yamaha-nodejs": "^0.7.8",
+    "yargs": "^8.0.2",
+    "snyk": "^1.316.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.0",
+    "chai-as-promised": "^7.1.1",
+    "eslint": "^4.3.0",
+    "mocha": "^3.5.0",
+    "sinon": "^2.4.1",
+    "sinon-chai": "^2.12.0"
+  },
+  "snyk": true
 }
