@@ -22,7 +22,7 @@
     },
     "homepage": "https://github.com/automaid/yamaha-avr-service#readme",
     "dependencies": {
-        "bunyan": "^1.8.10",
+        "bunyan": "^1.8.13",
         "bunyan-format": "^0.2.1",
         "js-yaml": "^3.9.0",
         "lodash.get": "^4.4.2",
