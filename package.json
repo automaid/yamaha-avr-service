@@ -29,7 +29,7 @@
         "restify": "^5.0.1",
         "restify-errors": "^4.3.0",
         "yamaha-nodejs": "^0.7.8",
-        "yargs": "^8.0.2"
+        "yargs": "^15.0.1"
     },
     "devDependencies": {
         "chai": "^4.1.0",
